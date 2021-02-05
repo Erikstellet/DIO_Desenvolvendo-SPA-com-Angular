@@ -11,7 +11,6 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { CardListComponent } from './home/card-list/card-list.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
-import { NewsListComponent } from './home/news-list/news-list.component';
 import {MatListModule} from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
@@ -24,7 +23,6 @@ import { TestComponent } from './home/test/test.component';
     AppComponent,
     HomeComponent,
     CardListComponent,
-    NewsListComponent,
     TestComponent,
   ],
   imports:

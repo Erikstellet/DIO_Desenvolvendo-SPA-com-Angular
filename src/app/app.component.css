@@ -2,7 +2,7 @@
 .toolbar
 {
   border: 2px solid black;
-  background-color: red;
+  background-color: rgb(238, 171, 62);
   justify-content: flex-start;
   text-align: center;
   justify-content: flex-start;
@@ -16,11 +16,44 @@ mat-toolbar
   height: 90px;
 }
 
+.social-media
+{
+  margin-right: 15px;
+  align-items: center;
+}
+
 .social-media img
 {
   height: 30px;
-  margin-left: 8px;
-  margin-right: 20px;
+  margin-left: 1px;
+  margin-right: 15px;
+}
+
+.example-spacer
+{
+  color: rgb(238, 171, 62);;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+
+  background: linear-gradient(to right, rgb(238, 171, 62) 60%, #774e2f 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer
+{
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 171, 62);
+  padding: 2% 32%;
+}
+
+a
+{
+  color: white;
+  text-decoration: none;
 }
 
 

@@ -16,18 +16,10 @@ body
 {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-image: url("assets/image/poster-anime.jpg");
+  background-color: #774e2f;
   /*background-repeat: no-repeat, repeat;*/
   background-size: 100%;
 }
 
-footer
-{
-  padding: 5% 49%;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  position: absolute;
-}
 
 
