@@ -1,0 +1,21 @@
+.grid-container
+{
+  width: 75%;
+  margin: 5% 10%;
+  padding: 0;
+  border-radius: none;
+}
+
+.dashboard-card
+{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.dashboard-card-content
+{
+  text-align: center;
+}

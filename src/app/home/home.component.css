@@ -4,84 +4,9 @@
   margin: 0;
 }
 
-.example-spacer {
+.example-spacer
+{
   flex: 1 1 auto;
-}
-
-.toolbar
-{
-  border: 2px solid black;
-  background-color: red;
-  justify-content: flex-start;
-  text-align: center;
-  justify-content: flex-start;
-
-}
-
-.toolbar ul
-{
-  display: inline-flex;
-  list-style: none;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-}
-
-.toolbar ul li
-{
-  width: 120px;
-  padding: 10px;
-  margin: 20px;
-}
-
-.toolbar ul a
-{
-  text-decoration: none;
-}
-
-.active, .menu-bar ul li:hover
-{
-  background: green;
-}
-
-.example-small-box
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 16px;
-  text-align: center;
-  padding: 16px;
-
-  width: 200px;
-  height: 100px;
-  background-color: red;
-  position: relative;
-  overflow: hidden;
-  box-shadow: none;
-}
-
-.example-small-box::after
-{
-  content: "";
-  position: absolute;
-  z-index: 2;
-  top: 110px;
-  right: -65px;
-  width: 100px;
-  height: 100px;
-  transform: rotate(45deg);
-  background-color: rgb(169, 169, 169);
-}
-
-.mat-tab-group {
-  justify-content: center;
-}
-
-.example-small-box {
-  height: 100px;
-  width: 90%;
-  justify-content: center;
 }
 
 .container

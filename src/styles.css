@@ -1,4 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+*
+{
+  padding: 0;
+  margin: 0;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: rgb(169, 169, 169) }
+
+html, body
+{
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image: url("assets/image/poster-anime.jpg");
+  /*background-repeat: no-repeat, repeat;*/
+  background-size: 100%;
+}
+
+footer
+{
+  padding: 5% 49%;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  position: absolute;
+}
+
+

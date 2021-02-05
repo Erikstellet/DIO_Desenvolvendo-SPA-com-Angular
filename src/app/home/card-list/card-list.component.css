@@ -1,0 +1,62 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+label
+{
+  color: inherit;
+}
+
+a
+{
+   color: inherit;
+}
+
+.aaaa
+{
+  width: 72.8%;
+  height: 350px;
+
+  margin-right: 9%;
+  margin-left: 11%;
+  background-color:white;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-radius: 0;
+}
+
+.A
+{
+  display: flex;
+  flex-direction: row;
+  border-radius: 5%;
+  height: 350px;
+}
+
+.C
+{
+  margin-bottom: 1%;
+  width: 48%;
+  border-radius: 5%;
+  height: 250px;
+  color: aliceblue;
+  border: 3px solid #e94790;
+}
+
+.C img
+{
+  height: 150px;
+}
+
+.B
+{
+  font-size: 20px;
+  margin: 8% 2%;
+  height: 340px;
+  width: 48%;
+  height: 40%;
+  color: black;
+}

@@ -8,12 +8,24 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
+import { CardListComponent } from './home/card-list/card-list.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { NewsListComponent } from './home/news-list/news-list.component';
+import {MatListModule} from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+import { LayoutModule } from '@angular/cdk/layout';
+import { TestComponent } from './home/test/test.component';
 
 @NgModule({
   declarations:
   [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    CardListComponent,
+    NewsListComponent,
+    TestComponent,
   ],
   imports:
   [
@@ -22,7 +34,13 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatToolbarModule,
     MatIconModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule,
+    MatGridListModule,
+    MatListModule,
+    MatMenuModule,
+    MatButtonModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
