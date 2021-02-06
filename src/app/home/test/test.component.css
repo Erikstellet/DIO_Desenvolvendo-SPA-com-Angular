@@ -50,40 +50,20 @@ img
 {
   margin: 0;
   width: 49%;
-  height: 30%;
+  height: 35%;
   background-color:rgb(238, 171, 62);
   border-radius: 1.5%;
-  border: solid 3px black;
 }
 
-.example-container
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  display: flex;
-  flex-direction: column;
-
-  color: #130901;
-  background-color: white;
-  margin-bottom: 30px;
-  border:solid 1px blue;
-}
-
-.email-example
-{
-  margin-left: 18px;
-}
 
 .D
 {
   margin: 0;
   margin-top: 240px;
-  margin-left: -36%;
+  margin-left: -35%;
   width: 49%;
   height: 60%;
-  background-color:rgb(238, 171, 62);
+  background-color: white;
   border-radius: 1.5%;
 }
 

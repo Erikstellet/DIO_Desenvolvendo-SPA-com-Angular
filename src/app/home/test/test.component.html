@@ -31,18 +31,34 @@
 
     <div class="C">
       <h1>C</h1>
-      <div class="example-container">
 
-        <mat-form-field class="email-example" appearance="fill">
-          <p><label for="male">Nome: </label>
-          <input matInput placeholder="Seu nome"></p>
+      <hr>
 
-          <label for="male">Email: </label>
-          <input matInput placeholder="Escreva seu email aqui" [formControl]="email" required>
+      <form #courseForm="ngForm">
 
-          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-        </mat-form-field>
-      </div>
+        <label>Name</label>
+        <div class="form-group">
+          <!--<input [(ngModel)]="register.name"
+                     name="name" #registerName="ngModel">
+                     [ngClass]="'{is invalid': registerName.invalid}"-->
+
+            <div class="invalid-feedback">
+              <span>Email inválido</span>
+            </div>
+        </div>
+
+        <label>Email</label>
+        <div class="form-group">
+          <!--<input [(ngModel)]="register.name"
+                     name="email" #registerEmail="ngModel">
+                     [ngClass]="'{is invalid': registerEmail.invalid}"-->
+
+            <div class="invalid-feedback">
+              <span>Email inválido</span>
+            </div>
+        </div>
+
+      </form>
     </div>
 
     <div class="D">
