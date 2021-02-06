@@ -9,6 +9,7 @@
   width: 72.3%;
   height: 300px;
 
+  margin-bottom: 7%;
   margin-right: 9%;
   margin-left: 11.5%;
   background-color:white;
@@ -24,25 +25,34 @@
   flex-direction: row;
   height: 300px;
   background-color:rgb(238, 171, 62);
-  border-radius: 1.0%;
+  border-radius: 1.5%;
 }
 
 .B
 {
   padding: 5%;
-  font-size: 20px;
+  font-size: 18px;
 
   width: 42%;
   height: 40%;
   color: black;
+  text-overflow: ellipsis;
+}
+
+.B h2
+{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #774e2f;
+  font-size: 38px;
+  color: white;
 }
 
 .C
 {
   width: 50%;
-  border-bottom-left-radius: 1%;
+  border-bottom-left-radius: 1.5%;
 
-  background-image: url("src/assets/image/PS5.jpg");
+  background-image: url("src/assets/image/thumb/PS5.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,9 +62,9 @@
 .D
 {
   width: 50%;
-  border-bottom-left-radius: 1%;
+  border-bottom-left-radius: 1.5%;
 
-  background-image: url("src/assets/image/atack-on-titan.jpg");
+  background-image: url("src/assets/image/thumb/atack-on-titan.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,13 +74,11 @@
 .E
 {
   width: 50%;
-  border-bottom-left-radius: 1%;
+  border-bottom-left-radius: 1.5%;
 
-  background-image: url("src/assets/image/kong-and-godzzila.jpg");
+  background-image: url("src/assets/image/thumb/kong-and-godzzila.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-

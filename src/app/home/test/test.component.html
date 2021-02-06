@@ -6,7 +6,7 @@
         <mat-card class="dashboard-card">
           <mat-card-header>
             <mat-card-title> {{ card.title }} </mat-card-title>
-            <mat-card-subtitle> {{ card.name }} </mat-card-subtitle>
+            <mat-card-subtitle> {{ card.subtitle }} </mat-card-subtitle>
           </mat-card-header>
 
           <mat-card-content>
@@ -19,8 +19,34 @@
             <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"> -->
           </mat-card-content>
         </mat-card>
-
       </mat-grid-tile>
   </mat-grid-list>
 
+  <div class="A">
+    <div class="B">
+      <h1>B</h1>
+
+
+    </div>
+
+    <div class="C">
+      <h1>C</h1>
+      <div class="example-container">
+
+        <mat-form-field class="email-example" appearance="fill">
+          <p><label for="male">Nome: </label>
+          <input matInput placeholder="Seu nome"></p>
+
+          <label for="male">Email: </label>
+          <input matInput placeholder="Escreva seu email aqui" [formControl]="email" required>
+
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="D">
+      <h1>D</h1>
+    </div>
+  </div>
 </div>

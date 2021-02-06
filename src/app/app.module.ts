@@ -16,6 +16,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
 import { TestComponent } from './home/test/test.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations:
@@ -38,7 +40,10 @@ import { TestComponent } from './home/test/test.component';
     MatListModule,
     MatMenuModule,
     MatButtonModule,
-    LayoutModule
+    LayoutModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
