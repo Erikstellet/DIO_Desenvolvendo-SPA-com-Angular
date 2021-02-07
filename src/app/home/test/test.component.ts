@@ -39,9 +39,9 @@ export class TestComponent implements OnInit
       },
       {
         id: 4,
-        title: 'ATTACK ON TITAN',
-        imageUrl: 'assets/image/thumb/atack-on-titan.jpg',
-        text: 'Anime conta o segredo por trás do ataque de Eren'
+        title: 'Dr. Stone',
+        imageUrl: 'assets/image/thumb/dr-stone.jpg',
+        text: 'A segunda temporada Stone Wars já começou!'
       }
     ]
   }
@@ -53,18 +53,15 @@ export class TestComponent implements OnInit
     map(({ matches }) => {
       if (matches) {
         return [
-          { image: 'src/assets/image/PS5.jpg', title: 'Novidades', subtitle: 'ABC', cols: 1, rows: 1 },
-          { image: 'src/assets/image/PS5.jpg', title: 'Resenha', subtitle: 'ABC', cols: 1, rows: 1}
+          { image: 'assets/image/thumb/studio.jpg', title: 'Project-Cast', subtitle: 'Ouça nosso podcast!', cols: 1, rows: 1 },
+          { image: 'assets/image/thumb/PS5.jpg', title: 'Resenha', subtitle: 'ABC', cols: 1, rows: 1}
         ];
       }
 
       return [
-        { image: 'src/assets/image/PS5.jpg', title: 'Novidades', subtitle: 'ABC', cols: 1, rows: 1 },
-        { image: 'src/assets/image/PS5.jpg', title: 'Resenha', subtitle: 'ABC', cols: 1, rows: 1 }
+        { image: 'assets/image/thumb/studio.jpg', title: 'Project-Cast', subtitle: 'Ouça nosso podcast!', cols: 1, rows: 1 },
+        { image: 'assets/image/thumb/PS5.jpg', title: 'Resenha', subtitle: 'ABC', cols: 1, rows: 1 }
       ];
     })
   );
-
-
-
 }
