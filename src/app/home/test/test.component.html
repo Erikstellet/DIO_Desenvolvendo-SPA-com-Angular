@@ -16,12 +16,10 @@
   <div class="A">
 
     <div class="B">
-
       <h1 class="space"></h1>
-
       <table class="table table-hover">
-        <tbody>
 
+        <tbody>
           <tr *ngFor="let n of news">
             <td><img [src]="n.imageUrl"></td>
             <td>
@@ -29,41 +27,20 @@
                 <mat-card-subtitle> {{ n.text }} </mat-card-subtitle>
             </td>
           </tr>
-
         </tbody>
-      </table>
 
+      </table>
     </div>
 
     <div class="C">
-      <h1>C</h1>
-
-      <hr>
-
-      <form #courseForm="ngForm">
-
-        <label>Name</label>
-        <div class="form-group">
-          <!--<input [(ngModel)]="register.name"
-                     name="name" #registerName="ngModel">
-                     [ngClass]="'{is invalid': registerName.invalid}"-->
-
-            <div class="invalid-feedback">
-              <span>Email inválido</span>
-            </div>
+      <form action="/action_page.php">
+        <div class="abc">
+          <div class="form-row">
+              <input type="text" class="form-control" placeholder="Nome">
+              <input type="text" class="form-control" placeholder="Email">
+              <button class="button" type="submit" mat-raised-button>Cadastrar</button>
+          </div>
         </div>
-
-        <label>Email</label>
-        <div class="form-group">
-          <!--<input [(ngModel)]="register.name"
-                     name="email" #registerEmail="ngModel">
-                     [ngClass]="'{is invalid': registerEmail.invalid}"-->
-
-            <div class="invalid-feedback">
-              <span>Email inválido</span>
-            </div>
-        </div>
-
       </form>
     </div>
 

@@ -2,7 +2,7 @@
 .toolbar
 {
   border: 2px solid black;
-  background-color: rgb(238, 171, 62);
+  background-color: #0b37d8;
   justify-content: flex-start;
   text-align: center;
   justify-content: flex-start;
@@ -31,12 +31,11 @@ mat-toolbar
 
 .example-spacer
 {
-  color: rgb(238, 171, 62);;
   text-align: center;
   font-size: 28px;
   font-weight: bold;
 
-  background: linear-gradient(to right, rgb(238, 171, 62) 60%, #774e2f 0);
+  background: linear-gradient(to right, #0b37d8 60%, rgb(238, 171, 62) 0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -48,7 +47,7 @@ footer
   flex-direction: column;
 
   font-size: 24px;
-  background-color: rgb(238, 171, 62);
+  background-color: #0b37d8;
   padding: 2%;
 }
 

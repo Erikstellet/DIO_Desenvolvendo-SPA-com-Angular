@@ -92,16 +92,6 @@ img
   background-size: cover;
 }
 
-.C
-{
-  margin: 0;
-  width: 49%;
-  height: 35%;
-  background-color:rgb(238, 171, 62);
-  border-radius: 1.5%;
-}
-
-
 .D
 {
   margin: 0;
@@ -113,4 +103,38 @@ img
   border-radius: 1.5%;
 }
 
+
+/*===================  FORM  ======================*/
+.C
+{
+  width: 49%;
+  height: 35%;
+  background-color: #0b37d8;
+  border-radius: 1.5%;
+}
+
+.form-row
+{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.abc
+{
+ padding: 20px 10%;
+}
+
+.form-control
+{
+  margin: 5px;
+}
+
+.button
+{
+  font-size: 22px;
+  border-radius: 6px;
+  margin-top: 15px;
+  padding: 3% 25%;
+}
 

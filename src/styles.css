@@ -18,7 +18,7 @@ body
 {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color: #774e2f;
+  background-color: rgba(238, 171, 62, 0.9);
   /*background-repeat: no-repeat, repeat;*/
   background-size: 100%;
 }

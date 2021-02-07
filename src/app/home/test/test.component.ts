@@ -3,6 +3,7 @@ import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import { News } from './news';
+import { TestService } from './test.service';
 
 @Component
 ({
@@ -15,38 +16,13 @@ export class TestComponent implements OnInit
 {
   news: News[] = [];
 
+  constructor(private breakpointObserver: BreakpointObserver,
+              private testService: TestService) {}
+
   ngOnInit(): void
   {
-    this.news =
-    [
-      {
-        id: 1,
-        title: 'Os Filmes de 2021',
-        imageUrl: 'assets/image/thumb/kong-and-godzzila.jpg',
-        text: 'Os mais esperados de 2021'
-      },
-      {
-        id: 2,
-        title: 'Prince of Persia',
-        imageUrl: 'assets/image/thumb/price-of-persia.jpg',
-        text: 'Remake do game é adiado mais uma vez'
-      },
-      {
-        id: 3,
-        title: 'ATTACK ON TITAN',
-        imageUrl: 'assets/image/thumb/atack-on-titan.jpg',
-        text: 'Anime conta o segredo por trás do ataque de Eren'
-      },
-      {
-        id: 4,
-        title: 'Dr. Stone',
-        imageUrl: 'assets/image/thumb/dr-stone.jpg',
-        text: 'A segunda temporada Stone Wars já começou!'
-      }
-    ]
+    this.news = this.testService.retrieveAll();
   }
-
-  constructor(private breakpointObserver: BreakpointObserver) {}
 
   /** Based on the screen size, switch from standard to one column per row */
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
